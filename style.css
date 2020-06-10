@@ -54,3 +54,9 @@ h1, p {
   color: rgb(56, 70, 35);
   font-size: 1.2em;
 }
+.post-app div > h5{
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
+  color: red;
+}
