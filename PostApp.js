@@ -17,7 +17,7 @@ function PostApp(){
       })
       .catch(err => {
         console.log(err)
-        setError(error = 'failed to fetch post');
+        setError(error = 'failed to fetch post!');
       })
   })
 
