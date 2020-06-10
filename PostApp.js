@@ -22,7 +22,9 @@ function PostApp(){
 
   return (
     <div>
-    
+      <button type='button'>next post</button>
+      <button type='button'>prev post</button>
+      
     </div>
   )
 }
