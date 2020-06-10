@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root{
-  --back-color: #ccc;
+  --back-color: rgba(212, 239, 255, 0.322);
 }
 h1, p {
   font-family: Lato;
