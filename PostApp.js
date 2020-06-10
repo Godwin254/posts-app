@@ -1,3 +1,12 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
-export default ({ name }) => <h1>Hello {name}!</h1>;
+function PostApp(){
+
+  return (
+    <div>
+    
+    </div>
+  )
+}
+
+export default PostApp;
