@@ -19,10 +19,10 @@ function PostApp(){
         console.log(err)
         setError(error = 'failed to fetch post!');
       })
-  })
+  }, {count})
 
   return (
-    <div>
+    <div className='post-app'>
       <button type='button' onClick={() => setCount(count + 1)}>next post</button>
       <button type='button' onClick={() => setCount(count - 1)}>prev post</button>
 
