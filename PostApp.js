@@ -19,7 +19,7 @@ function PostApp(){
         console.log(err)
         setError(error = 'failed to fetch post!');
       })
-  }, {count})
+  }, [count])
 
   return (
     <div className='post-app'>

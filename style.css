@@ -18,6 +18,24 @@ h1, p {
   height: 40vh;
   border-radius: 3px;
 }
+.post-app button{
+  position: absolute;
+  margin-left: 20px;
+  padding: 5px;
+  width: 23%;
+  height: 1cm;
+  top: 10%;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.473);
+}
+.post-app button:hover{
+  border: 1px solid black;
+}
+.post-app button:nth-child(1){
+  right: 5%;
+}
 .post-app div > h4{
   position: absolute;
   padding: 5px;
