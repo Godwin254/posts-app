@@ -24,7 +24,12 @@ function PostApp(){
     <div>
       <button type='button'>next post</button>
       <button type='button'>prev post</button>
-      
+
+      <div>
+        <h4>{post.title}</h4>
+        <p>{post.body}</p>
+        <h5>{error}</h5>
+      </div>
     </div>
   )
 }
